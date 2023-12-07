@@ -21,12 +21,18 @@ app.get('/broken', (request,response) => {
   throw new Error("Something is totally broken");
 })
 
+const Forecast = (weather) => {
+    return weather.map((X, index)=>{
+        const date = {date: X.data.datetime};
+        return date;
+    });
+}
 
 app.get("/weather", (request, response) => {
     let lat = request.query.lat;
     let lon = request.query.lon;
     let searchQuery = request.query.searchQuery;
-
+    console.log(Forecast(weather))
     if (
         lat == null || lon == null|| searchQuery == null ||
         lat == undefined || lon == undefined || searchQuery == undefined
