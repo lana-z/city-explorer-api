@@ -21,17 +21,17 @@ The app utilizes React, Axios and LocationIQ.
 
 ## Credit and Collaborations
 I collaborated with Stephanie and Latherio. 
-Brandon and ChatGPT assisted us. 
-React, Axios and LocationIQ are utilized. 
+Code Fellows TAs, John and ChatGPT assisted. :raised_hands:
+LocationIQ and Weatherbit API are utilized. 
+For the weatherbit API, I referenced Chris' code. 
 
 
+Name of feature: weatherbit API
 
-Name of feature: 
+Estimate of time needed to complete: 2 hours
 
-Estimate of time needed to complete: 3 hours
+Start time: 11am PST
 
-Start time: 4:30pm PST
+Finish time: 8pm PST
 
-Finish time:  PST
-
-Actual time needed to complete: 
+Actual time needed to complete: 6 hrs
